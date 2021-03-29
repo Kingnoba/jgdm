@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JG Digital Media</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+		<style>
+			html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, 
+			ol, ul, li, input, label, select, table, tbody, tfoot, thead, tr, th, 
+			td, footer, header, menu, nav, section, video{
+				margin: 0; padding: 0; font-size: 100%; list-style: none; border: 0; box-sizing: border-box;color:inherit;text-decoration: none;
+			}
+			h1,h2{
+				font-size: 40px;
+				margin-bottom: 30px;
+				line-height: 1.1em;
+				font-weight:600;
+				font-family: 'Poppins', sans-serif;
+			}
+			p{
+				max-width:500px;
+				margin-bottom:30px;
+				font-family: 'Open Sans', sans-serif;
+			}
+			
+			section{
+				display:flex;
+				align-items: center;
+  			justify-content: center;
+				padding:40px;
+				min-height: 100vh;
+				color:#fff;
+
+			}
+				section.header{
+					background-image:url('assets/headerbg.jpg');
+					background-size: cover;
+					background-attachment: fixed;
+					text-align: center;
+				
+				}
+				section.content{
+					background-color: rgb(39, 39, 39);
+
+				}
+				section.content.white{
+					background-color:#fff;
+					color:rgb(24, 24, 24);
+
+				}
+				section.footer{
+					background-color: #000;	
+					min-height: 300px;
+				}
+			.cover{
+				position: absolute;
+				top:0;
+				left:0;
+				right:0;
+				bottom:0;
+				background-color: #000;
+				opacity: 0.5;
+				z-index: 1;
+			}
+			.logo{
+				font-size:40px;
+				font-weight:600;
+				font-family: 'Poppins', sans-serif;
+			}
+			.body{
+				max-width:1000px;
+				flex-grow: 1;
+				position: relative;
+				z-index: 3;
+			}
+			.xl{
+				font-size: 200px;
+				margin-bottom:20px;
+				display: inline-block;
+				padding:20px;
+				border: 1px solid #fff;
+			}
+			.button{
+				display: inline-block;
+				padding:0 20px;
+				height:50px;
+				line-height: 50px;
+				font-weight:bold;
+				border-radius:50px;
+				border:1px solid #fff;
+				color:#fff;
+				text-transform: none;
+				text-decoration: none;
+				font-weight:600;
+				font-family: 'Poppins', sans-serif;
+			}
+		</style>
+  </head>
+  <body>
+    <section class="header">
+			<div class="cover"></div>
+			<div class="body"><div class="logo"><span class="xl">JG</span><br>Digital Media</div></div>
+		</section>
+		<section class="content">
+			<div class="body">
+				<h1>Media buying <br>and Advertising <br>in scale</h1>
+				<p>At JG Digital Media we specialize in media buying from various self serve advertising platforms with proven traffic and performance quality. 
+					All of our services are specifically tailored for your specific needs and every client and campaign is unique. 
+				</p>
+				<a class="button" href="mailto:contact@jgmedia.com">Contact us for details</a>
+			
+				
+			</div>
+		</section>
+	
+		<section class="content white">
+			<div class="body">
+				<h1>Tailored <br>Social Media <br>management</h1>
+				<p>In connection with Media Buying, we also manage your Social Media properties when in connection with advertising campaigns. Our Social media management is completely unique for all of our clients specific needs and tailored to your advertising campaigns.	
+				</p>
+			</div>
+		</section> 
+		<section class="footer">
+			<div class="body">
+				<p>JG DIGITAL MEDIA<br>
+				Kulmakatu 6 A 1<br>
+				00170 HELSINKI, FINLAND<br>
+				<a href="mailto:contact@jgmedia.com">contact@jgmedia.com</a></p>
+			</div>
+		</section>
+  </body>
+</html>
